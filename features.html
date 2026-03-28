@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Features | TBD – School Inventory Management</title>
+  <meta
+    name="description"
+    content="Explore TBD's full feature set designed for schools. Real-time tracking, smart alerts, integrations, and more."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true"></div>
+
+  <header class="topbar container">
+    <a class="brand" href="/" aria-label="TBD home">
+      <span class="brand-dot"></span>
+      <span class="brand-name">TBD</span>
+    </a>
+    <nav class="topnav" aria-label="Primary navigation">
+      <a href="/features.html" class="active">Features</a>
+      <a href="/pricing.html">Pricing</a>
+      <a href="/integrations.html">Integrations</a>
+      <a href="/about.html">About</a>
+    </nav>
+    <div class="top-actions">
+      <a class="btn btn-ghost" href="/demo.html">Demo</a>
+      <a class="btn btn-solid" href="/#cta">Get Started</a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileNav">
+      Menu
+    </button>
+  </header>
+
+  <nav class="mobile-nav container" id="mobileNav" aria-label="Mobile navigation">
+    <a href="/features.html">Features</a>
+    <a href="/pricing.html">Pricing</a>
+    <a href="/integrations.html">Integrations</a>
+    <a href="/about.html">About</a>
+    <a href="/demo.html">Demo</a>
+    <a href="/#cta">Get Started</a>
+  </nav>
+
+  <main>
+    <section class="hero-slim container reveal">
+      <div>
+        <p class="eyebrow">FEATURES</p>
+        <h1>Built entirely around how schools manage inventory</h1>
+        <p class="lead">
+          From supply closets to lab equipment, TBD handles every corner of your school's inventory ecosystem.
+        </p>
+      </div>
+    </section>
+
+    <section class="featured-feature container reveal">
+      <div class="feature-showcase">
+        <div class="showcase-content">
+          <h2>Real-time inventory visibility</h2>
+          <p>
+            See what you have, where you have it, and who has it—instantly. Track inventory by classroom, department, or location without waiting for syncs.
+          </p>
+          <ul class="feature-details">
+            <li>Live stock levels across all locations</li>
+            <li>Complete audit trail of every transaction</li>
+            <li>Filter by department, teacher, or category</li>
+            <li>Search with barcode or QR code</li>
+          </ul>
+        </div>
+        <div class="showcase-visual">
+          <div class="mock-interface">
+            <div class="mock-header">Dashboard</div>
+            <div class="mock-content">
+              <div class="mock-stat">Science Lab: 47 items</div>
+              <div class="mock-stat warning">Low: Bunsen Burners (2 left)</div>
+              <div class="mock-stat">Art Room: 156 items</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-grid-large container reveal">
+      <article class="feature-large-card">
+        <h3>Classroom & club management</h3>
+        <p>
+          Assign inventory to specific classrooms, school clubs, and elective programs. Teachers can request items, and admins approve or fulfill in seconds.
+        </p>
+      </article>
+      <article class="feature-large-card">
+        <h3>Smart alerts & notifications</h3>
+        <p>
+          Get notified before supplies run out. Set thresholds for each item. Teachers get reminders before class; admins see reorder suggestions.
+        </p>
+      </article>
+      <article class="feature-large-card">
+        <h3>Barcode & QR support</h3>
+        <p>
+          Label supplies with barcodes or QR codes for instant check-in/out. Works on any device—Chromebook, iPad, phone. No special software needed.
+        </p>
+      </article>
+      <article class="feature-large-card">
+        <h3>Role-based access</h3>
+        <p>
+          Teachers see their classroom supplies. Admins see everything. Set custom permissions: view-only, request-only, or full control per user.
+        </p>
+      </article>
+      <article class="feature-large-card">
+        <h3>Budget tracking</h3>
+        <p>
+          Track spending per department or location. Set annual budgets and see real-time spend. Forecast next year's needs based on historical data.
+        </p>
+      </article>
+      <article class="feature-large-card">
+        <h3>Reporting & analytics</h3>
+        <p>
+          Export inventory reports. Analyze usage trends over time. Identify slow-moving stock and cost-saving opportunities.
+        </p>
+      </article>
+    </section>
+
+    <section class="comparison container reveal">
+      <div class="section-head">
+        <h2>How TBD compares to spreadsheets</h2>
+      </div>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Spreadsheets</th>
+            <th>TBD</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Real-time visibility</td>
+            <td>❌ Manual updates</td>
+            <td>✅ Instant</td>
+          </tr>
+          <tr>
+            <td>Multi-user access</td>
+            <td>⚠️ Conflicts & errors</td>
+            <td>✅ Safe & concurrent</td>
+          </tr>
+          <tr>
+            <td>Barcode scanning</td>
+            <td>❌ Manual entry</td>
+            <td>✅ Built-in</td>
+          </tr>
+          <tr>
+            <td>Alerts & reminders</td>
+            <td>❌ None</td>
+            <td>✅ Automatic</td>
+          </tr>
+          <tr>
+            <td>Integration with tools</td>
+            <td>❌ No</td>
+            <td>✅ Classroom, SIS, rosters</td>
+          </tr>
+          <tr>
+            <td>Audit & compliance</td>
+            <td>⚠️ Hard to track</td>
+            <td>✅ Complete history</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="use-cases container reveal">
+      <div class="section-head">
+        <h2>How schools use TBD</h2>
+      </div>
+      <div class="use-cases-grid">
+        <article class="use-case-card">
+          <h3>Science departments</h3>
+          <p>
+            Track lab chemicals, equipment, and safety gear. Know which experiments have supplies in stock before scheduling lessons.
+          </p>
+        </article>
+        <article class="use-case-card">
+          <h3>Elective programs</h3>
+          <p>
+            Manage art, music, woodshop, and culinary materials. Coordinate supply requests across multiple electives.
+          </p>
+        </article>
+        <article class="use-case-card">
+          <h3>School clubs</h3>
+          <p>
+            Clubs check out equipment and materials. Track returns. Budget for season. Know what's available before events.
+          </p>
+        </article>
+        <article class="use-case-card">
+          <h3>Facilities & grounds</h3>
+          <p>
+            Manage janitorial supplies, maintenance tools, and seasonal equipment across multiple buildings.
+          </p>
+        </article>
+        <article class="use-case-card">
+          <h3>Library & media</h3>
+          <p>
+            Beyond books—track tech kits, audiovisual equipment, and instructional materials. Manage checkouts and reservations.
+          </p>
+        </article>
+        <article class="use-case-card">
+          <h3>Athletics</h3>
+          <p>
+            Track sports equipment across teams and seasons. Know when gear needs replacement. Manage uniform inventory.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta container reveal" id="cta">
+      <div>
+        <p class="eyebrow">READY TO SIMPLIFY?</p>
+        <h2>See TBD in action</h2>
+        <p>Request a demo or join the waitlist for early access.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-solid" href="/demo.html">Request Demo</a>
+        <a class="btn btn-ghost" href="/#cta">Join Waitlist</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div class="footer-content">
+      <div>
+        <p class="footer-brand">TBD</p>
+        <p class="footer-tagline">Inventory for schools that want better.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="/features.html">Features</a>
+        <a href="/pricing.html">Pricing</a>
+        <a href="/about.html">About</a>
+        <a href="/blog.html">Blog</a>
+      </nav>
+    </div>
+    <p class="footer-legal">&copy; 2026 TBD. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

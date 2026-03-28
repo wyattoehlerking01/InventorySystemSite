@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing | TBD – School Inventory Management</title>
+  <meta
+    name="description"
+    content="Simple, transparent pricing for school inventory management. From single schools to entire districts."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true"></div>
+
+  <header class="topbar container">
+    <a class="brand" href="/" aria-label="TBD home">
+      <span class="brand-dot"></span>
+      <span class="brand-name">TBD</span>
+    </a>
+    <nav class="topnav" aria-label="Primary navigation">
+      <a href="/features.html">Features</a>
+      <a href="/pricing.html" class="active">Pricing</a>
+      <a href="/integrations.html">Integrations</a>
+      <a href="/about.html">About</a>
+    </nav>
+    <div class="top-actions">
+      <a class="btn btn-ghost" href="/demo.html">Demo</a>
+      <a class="btn btn-solid" href="/#cta">Get Started</a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileNav">
+      Menu
+    </button>
+  </header>
+
+  <nav class="mobile-nav container" id="mobileNav" aria-label="Mobile navigation">
+    <a href="/features.html">Features</a>
+    <a href="/pricing.html">Pricing</a>
+    <a href="/integrations.html">Integrations</a>
+    <a href="/about.html">About</a>
+    <a href="/demo.html">Demo</a>
+    <a href="/#cta">Get Started</a>
+  </nav>
+
+  <main>
+    <section class="hero-slim container reveal">
+      <div>
+        <p class="eyebrow">PRICING</p>
+        <h1>Transparent pricing, no hidden fees</h1>
+        <p class="lead">
+          All plans include unlimited users, so you're not paying per teacher or admin. Scale without surprises.
+        </p>
+      </div>
+    </section>
+
+    <section class="pricing-section container reveal">
+      <div class="billing-toggle" role="group" aria-label="Billing interval">
+        <button class="is-active" data-plan="monthly">Monthly</button>
+        <button data-plan="yearly">Yearly</button>
+      </div>
+
+      <div class="price-cards pricing-full">
+        <article class="price-card">
+          <h3>Single School</h3>
+          <p class="price" data-monthly="299" data-yearly="2990"><span>$299</span>/month</p>
+          <p class="card-subtitle">For individual K-12 schools</p>
+          <ul>
+            <li>✓ Up to 20 classrooms/locations</li>
+            <li>✓ Unlimited users</li>
+            <li>✓ Barcode & QR scanning</li>
+            <li>✓ Real-time alerts</li>
+            <li>✓ Email support</li>
+            <li>✗ District features</li>
+          </ul>
+          <a class="btn btn-ghost" href="/#cta">Start Free Trial</a>
+        </article>
+
+        <article class="price-card featured">
+          <p class="badge">Most Popular</p>
+          <h3>District</h3>
+          <p class="price" data-monthly="699" data-yearly="6990"><span>$699</span>/month</p>
+          <p class="card-subtitle">For school districts & multi-school systems</p>
+          <ul>
+            <li>✓ Unlimited schools and locations</li>
+            <li>✓ Unlimited users</li>
+            <li>✓ Department budgeting</li>
+            <li>✓ Procurement insights</li>
+            <li>✓ Custom workflows</li>
+            <li>✓ Priority email support</li>
+          </ul>
+          <a class="btn btn-solid" href="/#cta">Join Waitlist</a>
+        </article>
+
+        <article class="price-card">
+          <h3>Enterprise</h3>
+          <p class="price" data-monthly="1299" data-yearly="12990"><span>$1299</span>/month</p>
+          <p class="card-subtitle">For large districts & complex integrations</p>
+          <ul>
+            <li>✓ Everything in District</li>
+            <li>✓ Custom integrations</li>
+            <li>✓ API access & webhooks</li>
+            <li>✓ Dedicated account manager</li>
+            <li>✓ On-site onboarding</li>
+            <li>✓ 24/7 phone & email support</li>
+          </ul>
+          <a class="btn btn-ghost" href="/demo.html">Contact Sales</a>
+        </article>
+      </div>
+
+      <p class="pricing-note">All plans include unlimited users. No per-seat fees. 30-day free trial on all plans.</p>
+    </section>
+
+    <section class="features-comparison-full container reveal">
+      <div class="section-head">
+        <h2>What's included in each plan</h2>
+      </div>
+      <table class="full-comparison-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Single School</th>
+            <th>District</th>
+            <th>Enterprise</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Locations supported</td>
+            <td>Up to 20</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <td>Unlimited users</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Barcode & QR scanning</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Real-time alerts</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Classroom management</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Basic reporting</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Department budgeting</td>
+            <td>—</td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Procurement insights</td>
+            <td>—</td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Custom workflows</td>
+            <td>—</td>
+            <td>✓</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>API access</td>
+            <td>—</td>
+            <td>—</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Custom integrations</td>
+            <td>—</td>
+            <td>—</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Dedicated account manager</td>
+            <td>—</td>
+            <td>—</td>
+            <td>✓</td>
+          </tr>
+          <tr>
+            <td>Support</td>
+            <td>Email</td>
+            <td>Priority email</td>
+            <td>24/7 phone & email</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="faq-pricing container reveal">
+      <div class="section-head">
+        <h2>Pricing questions</h2>
+      </div>
+      <details>
+        <summary>Is there a setup fee?</summary>
+        <p>No. Just pick a plan and start your free trial immediately. Setup and onboarding are included.</p>
+      </details>
+      <details>
+        <summary>Can I switch plans anytime?</summary>
+        <p>Yes. Upgrade or downgrade your plan at any time. Changes take effect immediately with prorated billing.</p>
+      </details>
+      <details>
+        <summary>What if I exceed my location limit?</summary>
+        <p>
+          If you add more locations, we'll notify you. You can upgrade your plan, or we can discuss a custom arrangement.
+        </p>
+      </details>
+      <details>
+        <summary>Do you offer discounts for annual billing?</summary>
+        <p>
+          Yes. Pay yearly and save about 15%. You'll also get priority support and early access to new features.
+        </p>
+      </details>
+      <details>
+        <summary>Is there a free version?</summary>
+        <p>No free tier, but all plans include a 30-day free trial with full feature access—no credit card required.</p>
+      </details>
+    </section>
+
+    <section class="cta container reveal" id="cta">
+      <div>
+        <p class="eyebrow">READY TO START?</p>
+        <h2>Join the waitlist or request a demo</h2>
+        <p>Early access customers get locked-in pricing and priority onboarding at launch.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-solid" href="/demo.html">Request Demo</a>
+        <a class="btn btn-ghost" href="/#cta">Join Waitlist</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div class="footer-content">
+      <div>
+        <p class="footer-brand">TBD</p>
+        <p class="footer-tagline">Inventory for schools that want better.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="/features.html">Features</a>
+        <a href="/pricing.html">Pricing</a>
+        <a href="/about.html">About</a>
+        <a href="/blog.html">Blog</a>
+      </nav>
+    </div>
+    <p class="footer-legal">&copy; 2026 TBD. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

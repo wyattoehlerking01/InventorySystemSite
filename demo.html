@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo | TBD – School Inventory Management</title>
+  <meta
+    name="description"
+    content="See TBD in action. Watch a demo or schedule time with our team to explore features."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true"></div>
+
+  <header class="topbar container">
+    <a class="brand" href="/" aria-label="TBD home">
+      <span class="brand-dot"></span>
+      <span class="brand-name">TBD</span>
+    </a>
+    <nav class="topnav" aria-label="Primary navigation">
+      <a href="/features.html">Features</a>
+      <a href="/pricing.html">Pricing</a>
+      <a href="/integrations.html">Integrations</a>
+      <a href="/about.html">About</a>
+    </nav>
+    <div class="top-actions">
+      <a class="btn btn-ghost" href="/demo.html" class="active">Demo</a>
+      <a class="btn btn-solid" href="/#cta">Get Started</a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileNav">
+      Menu
+    </button>
+  </header>
+
+  <nav class="mobile-nav container" id="mobileNav" aria-label="Mobile navigation">
+    <a href="/features.html">Features</a>
+    <a href="/pricing.html">Pricing</a>
+    <a href="/integrations.html">Integrations</a>
+    <a href="/about.html">About</a>
+    <a href="/demo.html">Demo</a>
+    <a href="/#cta">Get Started</a>
+  </nav>
+
+  <main>
+    <section class="hero-slim container reveal">
+      <div>
+        <p class="eyebrow">DEMO</p>
+        <h1>See TBD in action</h1>
+        <p class="lead">
+          Watch how schools use TBD to manage inventory, track supplies, and streamline operations.
+        </p>
+      </div>
+    </section>
+
+    <section class="demo-section container reveal">
+      <div class="demo-video-container">
+        <div class="video-placeholder">
+          <p>📹 Product Demo (3:45)</p>
+          <p>Walkthrough of core features and workflows</p>
+          <p style="font-size: 0.8rem; margin-top: 1rem; color: var(--muted);">Placeholder for embedded video</p>
+        </div>
+      </div>
+
+      <div class="demo-form-container">
+        <h2>Schedule a live demo</h2>
+        <p>Meet with our team for a personalized walkthrough tailored to your school's needs.</p>
+        <form class="demo-form" id="demoForm" onsubmit="return false;">
+          <div class="form-group">
+            <label for="demo-name">Full name</label>
+            <input id="demo-name" type="text" required />
+          </div>
+
+          <div class="form-group">
+            <label for="demo-school">School name</label>
+            <input id="demo-school" type="text" required />
+          </div>
+
+          <div class="form-group">
+            <label for="demo-role">Your role</label>
+            <select id="demo-role" required>
+              <option value="">Select...</option>
+              <option value="teacher">Teacher</option>
+              <option value="admin">Administrator</option>
+              <option value="coordinator">Supply Coordinator</option>
+              <option value="it">IT Director</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="demo-email">Work email</label>
+            <input id="demo-email" type="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="demo-district">School district</label>
+            <input id="demo-district" type="text" placeholder="Optional" />
+          </div>
+
+          <div class="form-group">
+            <label for="demo-date">Preferred date & time</label>
+            <input id="demo-date" type="datetime-local" />
+          </div>
+
+          <button class="btn btn-solid" type="submit">Schedule Demo</button>
+          <p class="form-note">We'll send you a meeting link and any prep materials.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="demo-highlights container reveal">
+      <div class="section-head">
+        <h2>What you'll see in the demo</h2>
+      </div>
+
+      <div class="highlights-grid">
+        <article class="highlight-card">
+          <h3>Dashboard overview</h3>
+          <p>Real-time inventory snapshot, alerts, and key metrics at a glance.</p>
+        </article>
+
+        <article class="highlight-card">
+          <h3>Location & inventory setup</h3>
+          <p>How to map classrooms and departments, then populate your first inventory.</p>
+        </article>
+
+        <article class="highlight-card">
+          <h3>Barcode scanning</h3>
+          <p>Live demo of how teachers check items in and out using any device.</p>
+        </article>
+
+        <article class="highlight-card">
+          <h3>Alerts & notifications</h3>
+          <p>How the system proactively notifies you before supplies run out.</p>
+        </article>
+
+        <article class="highlight-card">
+          <h3>Reporting</h3>
+          <p>Analyze usage trends, identify cost-saving opportunities, and budget for next year.</p>
+        </article>
+
+        <article class="highlight-card">
+          <h3>Integrations</h3>
+          <p>How TBD syncs with Google Classroom, Clever, and your other tools.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq-demo container reveal">
+      <div class="section-head">
+        <h2>Demo questions</h2>
+      </div>
+
+      <details>
+        <summary>How long is the demo?</summary>
+        <p>Typically 30-45 minutes, depending on your questions. We can focus on specific areas like your department or use case.</p>
+      </details>
+
+      <details>
+        <summary>Do I need to prepare anything?</summary>
+        <p>No prep needed. But if you have specific questions or challenges, sharing them beforehand helps us tailor the demo.</p>
+      </details>
+
+      <details>
+        <summary>Can I invite other team members?</summary>
+        <p>Absolutely. We recommend having teachers, admins, and IT leadership on the call for different perspectives.</p>
+      </details>
+
+      <details>
+        <summary>What if I can't make the scheduled time?</summary>
+        <p>No problem. We'll work with you to find a time that works. Reschedule anytime via email.</p>
+      </details>
+
+      <details>
+        <summary>Can I try TBD before committing?</summary>
+        <p>Yes. Early access customers get a 30-day free trial with full feature access—no credit card required.</p>
+      </details>
+    </section>
+
+    <section class="cta container reveal" id="cta">
+      <div>
+        <p class="eyebrow">READY?</p>
+        <h2>Let's get your school set up</h2>
+        <p>Join the waitlist now and we'll contact you with early access opportunities and exclusive pricing.</p>
+      </div>
+      <a class="btn btn-solid" href="/#cta" style="width: fit-content;">Join Waitlist</a>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div class="footer-content">
+      <div>
+        <p class="footer-brand">TBD</p>
+        <p class="footer-tagline">Inventory for schools that want better.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="/features.html">Features</a>
+        <a href="/pricing.html">Pricing</a>
+        <a href="/about.html">About</a>
+        <a href="/blog.html">Blog</a>
+      </nav>
+    </div>
+    <p class="footer-legal">&copy; 2026 TBD. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
