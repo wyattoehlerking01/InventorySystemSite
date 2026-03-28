@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StockPilot | Inventory Intelligence for Growing Teams</title>
+  <meta
+    name="description"
+    content="StockPilot helps teams track stock, automate reorder workflows, and forecast demand with confidence."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true"></div>
+
+  <header class="topbar container">
+    <a class="brand" href="#home" aria-label="StockPilot home">
+      <span class="brand-dot"></span>
+      <span class="brand-name">StockPilot</span>
+    </a>
+    <nav class="topnav" aria-label="Primary navigation">
+      <a href="#features">Features</a>
+      <a href="#workflow">Workflow</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="top-actions">
+      <a class="btn btn-ghost" href="#pricing">Live Demo</a>
+      <a class="btn btn-solid" href="#cta">Join Waitlist</a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileNav">
+      Menu
+    </button>
+  </header>
+
+  <nav class="mobile-nav container" id="mobileNav" aria-label="Mobile navigation">
+    <a href="#features">Features</a>
+    <a href="#workflow">Workflow</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
+    <a href="#cta">Join Waitlist</a>
+  </nav>
+
+  <main id="home">
+    <section class="hero container reveal">
+      <div class="hero-copy">
+        <p class="eyebrow">IN DEVELOPMENT NOW</p>
+        <h1>Inventory management that thinks ahead, not just counts items.</h1>
+        <p class="lead">
+          StockPilot brings purchasing, warehouse, and operations into one smart workflow so your team spends less time fixing stock issues and more time growing.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="#cta">Get Early Access</a>
+          <a class="btn btn-ghost" href="#workflow">See How It Works</a>
+        </div>
+        <ul class="micro-list" aria-label="Highlights">
+          <li>Fast SKU search + barcode support</li>
+          <li>Low stock and overstock alerts</li>
+          <li>Role-based workflows for teams</li>
+        </ul>
+      </div>
+
+      <aside class="hero-panel" aria-label="Platform summary card">
+        <p class="panel-title">Live Inventory Snapshot</p>
+        <div class="metric-row">
+          <div>
+            <p class="metric-label">Stock Accuracy</p>
+            <p class="metric-value" data-counter="99.4">0</p>
+          </div>
+          <div>
+            <p class="metric-label">Avg Fulfillment</p>
+            <p class="metric-value" data-counter="2.3">0</p>
+          </div>
+        </div>
+        <div class="panel-bars" aria-hidden="true">
+          <span style="--fill:88%"></span>
+          <span style="--fill:65%"></span>
+          <span style="--fill:76%"></span>
+          <span style="--fill:92%"></span>
+          <span style="--fill:54%"></span>
+          <span style="--fill:81%"></span>
+          <span style="--fill:70%"></span>
+        </div>
+        <p class="panel-foot">Forecast confidence up 34% after rollout</p>
+      </aside>
+    </section>
+
+    <section class="stats container reveal" aria-label="Key metrics">
+      <article>
+        <p class="stat-value" data-counter="640">0</p>
+        <p class="stat-label">Hours saved per month</p>
+      </article>
+      <article>
+        <p class="stat-value" data-counter="31">0</p>
+        <p class="stat-label">Lower carrying costs</p>
+      </article>
+      <article>
+        <p class="stat-value" data-counter="4.8">0</p>
+        <p class="stat-label">Average team satisfaction</p>
+      </article>
+      <article>
+        <p class="stat-value" data-counter="12000">0</p>
+        <p class="stat-label">SKUs supported per workspace</p>
+      </article>
+    </section>
+
+    <section class="features container reveal" id="features">
+      <div class="section-head">
+        <p class="eyebrow">CORE CAPABILITIES</p>
+        <h2>Built for inventory teams that need speed and control</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>Real-time stock visibility</h3>
+          <p>
+            Track on-hand, committed, and incoming inventory by warehouse and channel without waiting for sync jobs.
+          </p>
+        </article>
+        <article class="feature-card">
+          <h3>Smart reorder recommendations</h3>
+          <p>
+            Forecast demand and generate reorder suggestions using supplier lead times, seasonality, and velocity trends.
+          </p>
+        </article>
+        <article class="feature-card">
+          <h3>Audit-ready history</h3>
+          <p>
+            Every adjustment and transfer is logged with role context so your team can move fast and stay compliant.
+          </p>
+        </article>
+        <article class="feature-card">
+          <h3>Automated exception alerts</h3>
+          <p>
+            Get notified before stockouts, late supplier orders, and sudden demand spikes impact customer experience.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="workflow container reveal" id="workflow">
+      <div class="section-head">
+        <p class="eyebrow">WORKFLOW</p>
+        <h2>From receiving to replenishment in one connected loop</h2>
+      </div>
+      <ol class="workflow-list">
+        <li>
+          <h3>Ingest data</h3>
+          <p>Import SKUs, suppliers, and warehouse locations in minutes with guided onboarding.</p>
+        </li>
+        <li>
+          <h3>Automate operations</h3>
+          <p>Trigger picks, transfers, and purchase recommendations from unified inventory rules.</p>
+        </li>
+        <li>
+          <h3>Monitor health</h3>
+          <p>Watch trend dashboards and alert feeds to prevent stockouts and dead inventory.</p>
+        </li>
+        <li>
+          <h3>Scale confidently</h3>
+          <p>Expand channels and locations while keeping inventory logic and control centralized.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="testimonials container reveal">
+      <article>
+        <p>
+          "Our ops team stopped living in spreadsheets. We now catch inventory issues before they hit our fulfillment SLA."
+        </p>
+        <span>Head of Operations, DTC Retail Brand</span>
+      </article>
+      <article>
+        <p>
+          "The forecasting views made reorder planning finally predictable. We cut emergency purchases in half."
+        </p>
+        <span>Supply Chain Manager, Multi-warehouse Distributor</span>
+      </article>
+    </section>
+
+    <section class="pricing container reveal" id="pricing">
+      <div class="section-head">
+        <p class="eyebrow">EARLY ACCESS PRICING</p>
+        <h2>Simple plans while the platform is in development</h2>
+      </div>
+      <div class="billing-toggle" role="group" aria-label="Billing interval">
+        <button class="is-active" data-plan="monthly">Monthly</button>
+        <button data-plan="yearly">Yearly</button>
+      </div>
+      <div class="price-cards">
+        <article class="price-card">
+          <h3>Starter</h3>
+          <p class="price" data-monthly="49" data-yearly="39"><span>$49</span>/seat</p>
+          <ul>
+            <li>Up to 2 warehouses</li>
+            <li>Barcode intake tools</li>
+            <li>Email support</li>
+          </ul>
+          <a class="btn btn-ghost" href="#cta">Start Trial</a>
+        </article>
+        <article class="price-card featured">
+          <p class="badge">Most Requested</p>
+          <h3>Growth</h3>
+          <p class="price" data-monthly="99" data-yearly="79"><span>$99</span>/seat</p>
+          <ul>
+            <li>Unlimited locations</li>
+            <li>Demand forecasting</li>
+            <li>Automated replenishment</li>
+          </ul>
+          <a class="btn btn-solid" href="#cta">Join Waitlist</a>
+        </article>
+        <article class="price-card">
+          <h3>Scale</h3>
+          <p class="price" data-monthly="199" data-yearly="159"><span>$199</span>/seat</p>
+          <ul>
+            <li>Custom role workflows</li>
+            <li>Priority support</li>
+            <li>API + integration support</li>
+          </ul>
+          <a class="btn btn-ghost" href="#cta">Talk to Sales</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq container reveal" id="faq">
+      <div class="section-head">
+        <p class="eyebrow">FAQ</p>
+        <h2>Questions teams ask before joining early access</h2>
+      </div>
+      <details>
+        <summary>When will StockPilot launch publicly?</summary>
+        <p>We are targeting staged rollouts this year, with early access cohorts joining first.</p>
+      </details>
+      <details>
+        <summary>Can we migrate from spreadsheets or another platform?</summary>
+        <p>Yes. We provide CSV import templates and migration support for early access customers.</p>
+      </details>
+      <details>
+        <summary>Does this support multiple warehouses?</summary>
+        <p>Yes, location-level stock logic is built in from day one.</p>
+      </details>
+    </section>
+
+    <section class="cta container reveal" id="cta">
+      <div>
+        <p class="eyebrow">JOIN THE LIST</p>
+        <h2>Get launch updates and priority onboarding</h2>
+        <p>Be first in line for early feature drops and guided setup sessions.</p>
+      </div>
+      <form class="cta-form" aria-label="Early access signup" onsubmit="return false;">
+        <label class="sr-only" for="email">Work email</label>
+        <input id="email" type="email" placeholder="you@company.com" required />
+        <button class="btn btn-solid" type="submit">Request Access</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>StockPilot</p>
+    <p>Inventory intelligence for modern teams.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
